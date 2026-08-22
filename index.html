@@ -16,7 +16,8 @@
     /* ===== VARIABLES ===== */
     :root {
       --bg: #050a0f;
-      --bg2: #0b1118;
+      --bg2: #0c213a;
+      --bg3:#645560;
       --glass: rgba(255, 255, 255, 0.04);
       --glass-border: rgba(255, 255, 255, 0.08);
       --neon: #00f5c4;
@@ -94,7 +95,7 @@
     #loader {
       position: fixed;
       inset: 0;
-      background: var(--bg);
+      background: var(--bg3);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -124,7 +125,7 @@
       height: 100%;
       width: 0;
       background: linear-gradient(90deg, var(--neon), var(--neon2));
-      animation: loadFill 1.8s var(--ease) forwards;
+      animation: loadFill 1.9s var(--ease) forwards;
     }
 
     @keyframes loadFill {
@@ -1227,7 +1228,7 @@
   <!-- NAVBAR -->
   <nav class="navbar-custom" id="navbar">
     <div class="container d-flex align-items-center justify-content-between">
-      <a href="#hero" class="nav-logo">Shubham<span>.</span></a>
+      <a href="#hero" class="nav-logo">ShubhamR<span>.</span></a>
       <button class="navbar-toggler border-0 d-md-none" type="button" id="menuToggle" aria-label="Menu">
         <i class="fa-solid fa-bars" style="color:var(--text)"></i>
       </button>
